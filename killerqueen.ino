@@ -1,5 +1,5 @@
 /*
- * Send tweet when switch on pin 2 is pressed
+ * Send tweet from @ksr_killerqueen when the giant button connected to pin 2 is pressed
  * uses api.thingspeak.com  as a Twitter proxy
  * see: http://community.thingspeak.com/documentation/apps/thingtweet/
  */ 
@@ -13,7 +13,7 @@ byte server[]  = { xx, xx, xx, x };  // IP Address for the ThingSpeak API
 // your ThingTweet API key
 char *thingtweetAPIKey = "xxxxxxx";
 
-char* messages[]={
+char* messages[]={ // all the silly messages that will be tweeted in order when the button is pushed
 
 "ALERT: Once more into the BEEch dear friends, once more!",
 "ALERT: pic.twitter.com/zM31C1bSdc",
